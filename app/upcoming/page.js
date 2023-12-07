@@ -1,8 +1,14 @@
 import Footer from "@/components/footer/page"
 import Header from "@/components/header/page"
 import Link from "next/link"
-export default function upcoming(){
+import Updata from "./Updata"
+export default async function upcoming(){
+
+
+    
 return(
+
+    
 
     <div>
         <Header />
@@ -14,70 +20,8 @@ return(
                 <Link href="/createevent">Create New Event</Link>
             </div>
 
+            <Updata/>
 
-            <div className="mt-8 ml-20 mr-16">
-
-                <div className="flex bg-upcom-1 border rounded-md px-4 py-8 mb-6">
-                    <div className="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nemo iste dolorum possimus impedit, eveniet at
-  lai animi saepe repellat aperiam autem  ipsum dolor sit amet consectetur adipisicing elit.Nemo iste desoto <Link className=" ml-3 text-blue-500 font-bold" href="/booking"> read more...</Link></p>
-                    </div>
-                    <div className=" ml-16">
-                        <input className=" p-3 bg-blue-500 border rounded-md text-white text-bold" type="button" value="Book Your Seat" />
-                    </div>
-                </div>
-
-                <div className="flex bg-upcom-2 border rounded-md px-4 py-8 mb-6">
-                    <div className="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nemo iste dolorum possimus impedit, eveniet at
-  lai animi saepe repellat aperiam autem  ipsum dolor sit amet consectetur adipisicing elit.Nemo iste desoto <Link className=" ml-3 text-blue-500 font-bold" href="/booking"> read more...</Link></p>
-                    </div>
-                    <div className=" ml-16">
-                        <input className=" p-3 bg-blue-500 border rounded-md text-white text-bold" type="button" value="Book Your Seat" />
-                    </div>
-                </div>
-
-                <div className="flex bg-upcom-1 border rounded-md px-4 py-8 mb-6">
-                    <div className="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nemo iste dolorum possimus impedit, eveniet at
-  lai animi saepe repellat aperiam autem  ipsum dolor sit amet consectetur adipisicing elit.Nemo iste desoto <Link className=" ml-3 text-blue-500 font-bold" href="/"> read more...</Link></p>
-                    </div>
-                    <div className=" ml-16">
-                        <input className=" p-3 bg-blue-500 border rounded-md text-white text-bold" type="button" value="Book Your Seat" />
-                    </div>
-                </div>
-
-                <div className="flex bg-upcom-2 border rounded-md px-4 py-8 mb-6">
-                    <div className="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nemo iste dolorum possimus impedit, eveniet at
-  lai animi saepe repellat aperiam autem  ipsum dolor sit amet consectetur adipisicing elit.Nemo iste desoto <Link className=" ml-3 text-blue-500 font-bold" href="/"> read more...</Link></p>
-                    </div>
-                    <div className=" ml-16">
-                        <input className=" p-3 bg-blue-500 border rounded-md text-white text-bold" type="button" value="Book Your Seat" />
-                    </div>
-                </div>
-
-                <div className="flex bg-upcom-1 border rounded-md px-4 py-8 mb-6">
-                    <div className="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nemo iste dolorum possimus impedit, eveniet at
-  lai animi saepe repellat aperiam autem  ipsum dolor sit amet consectetur adipisicing elit.Nemo iste desoto <Link className=" ml-3 text-blue-500 font-bold" href="/"> read more...</Link></p>
-                    </div>
-                    <div className=" ml-16">
-                        <input className=" p-3 bg-blue-500 border rounded-md text-white text-bold" type="button" value="Book Your Seat" />
-                    </div>
-                </div>
-
-                <div className="flex bg-upcom-2 border rounded-md px-4 py-8 mb-6">
-                    <div className="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nemo iste dolorum possimus impedit, eveniet at
-  lai animi saepe repellat aperiam autem  ipsum dolor sit amet consectetur adipisicing elit.Nemo iste desoto <Link className=" ml-3 text-blue-500 font-bold" href="/"> read more...</Link></p>
-                    </div>
-                    <div className=" ml-16">
-                        <input className=" p-3 bg-blue-500 border rounded-md text-white text-bold" type="button" value="Book Your Seat" />
-                    </div>
-                </div>
-
-            </div>
 
 <Footer />
     </div>
