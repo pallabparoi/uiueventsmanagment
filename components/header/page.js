@@ -19,6 +19,7 @@ export default function header(){
           <a href="/archive">Events</a>
           <a href="/signup">SignUp</a>
           <a href="/login">LogIn</a>
+          <a href="/profile">My Profile</a>
           <input type="text" placeholder="Search.."/>
         </nav>
       </header>
