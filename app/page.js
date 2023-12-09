@@ -1,5 +1,6 @@
 import Footer from "@/components/footer/page"
 import Header from "@/components/header/page"
+import Upevent from "./Upevent"
 import "./style.css"
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
           <div class="work">
             <i class="fas fa-skiing"></i>
             <p class="work-heading">Upcoming Events</p>
-            <p class="work-text">This is a placeholder text. You can use it to fill space on your webpage until the actual content is ready.</p>
+            
+              <Upevent/>
+            
           </div>
           <div class="work">
             <i class="fas fa-ethernet"></i>
